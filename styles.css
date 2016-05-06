@@ -1,1 +1,163 @@
 /* Styles for the Advanced Markup assignment. */
+/* Font */
+body {
+  font-family: sans-serif;
+}
+/* Margin page title */
+h1 {
+  margin-left: 20px;
+  color: #330066;
+}
+/* List nav elements horizontal */
+nav ul {
+  position: relative;
+  left: 0px;
+  padding: 0px;
+}
+nav ul li {
+  float: left; 
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+/* Style nav elements */
+nav a:link, nav a:visited {
+  display: block;
+  background-color: yellowgreen;
+  width: 120px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin-left: 0px;
+  border-width: 5px;
+  border-color: yellowgreen;
+}
+/* Active links and hover */
+nav a:hover, nav a:active {
+  background-color: #330066;
+  margin-left: 0px;
+}
+a.active {
+  font-weight: bold;
+}
+/* Float sidebar */
+#sidebar {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #330066;
+  border-radius: 25px;
+  background-color: lavender;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  position: fixed;
+  margin-left: 800px;
+  margin-top: 75px;
+  max-width: 300px;
+  min-width: 150px;
+}
+/* Share links horizontal list in nav bar */
+#share li {
+  display: inline;
+}
+/* Clear h2 page title */
+#content h2 {
+  clear: left;
+  margin-top: 70px;
+  margin-left: 20px;
+  color: #330066;
+}
+/* Margin to give space for nav float */
+#content ul {
+  margin-top: 60px;
+  margin-left: 0px;
+}
+/* Poem Styling */
+#content ul li {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  padding-left: 0px;
+  max-width: 400px;
+  min-width: 250 px;
+  list-style-type: none;
+}
+/* Float bio photo */
+.image {
+  border-style: solid;
+  border-color: white;
+  background-color: lavender;
+  float: left;
+  margin-top: 0px;
+  max-width: 270px;
+  padding-left: 10px;
+  padding-top: 10px;
+} 
+/* Bio Styling */
+#bio {
+  /* position is static by default */
+  vertical-align: middle;
+  max-width: 60%;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+/* Styling for Selected Works */
+h2#selected_works {
+  margin-top: 20px;
+  margin-left: 10px;
+  max-width: 60%;
+  border-style: solid;
+  border-color: white;
+}
+/* Styling for Selected Works table */
+#selected_works {
+  border-style: solid;
+  border-color: greenyellow;
+  margin-left: 10px;
+}
+th {
+  text-align: left;
+  border-style: solid;
+  border-color: lavender;
+  border-left: hidden;
+  border-right: hidden;
+}
+td {
+  border-style: solid;
+  border-color: lavender;
+  border-left: hidden;
+  border-right: hidden;
+  text-align: center;
+}
+caption {
+  color: white;
+  padding-top: 0px;
+}
+/* Styling for Interpretations */
+#interpretation {
+  border-style: solid;
+  border-color: white;
+  margin-left: 10px;
+  margin-right: 400px;
+  margin-top: 50px;
+  max-width: 60%;
+}
+/* Pad footer small text */
+.smalltext li {
+    display: inline;
+}
+.smalltext {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  max-width: 50%;
+  position: static;
+  bottom: 0px;
+  clear: left;
+}
+     
